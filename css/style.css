@@ -1495,74 +1495,28 @@ background-image: url("../images/Properties-banner.jpg");
 }
 /* ================= RESPONSIVE ================= */
 
-/* Tablets (max-width: 992px) */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
 @media (max-width: 992px) {
-  .services-section {
-    padding: 60px 25px;
-  }
-
-  .services-title {
-    font-size: 30px;
-    margin-bottom: 45px;
-  }
-
   .services-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
-  .service-card img {
-    height: 230px;
-  }
-
-  .service-content {
-    padding: 25px;
   }
 }
 
-/* Mobile (max-width: 600px) */
 @media (max-width: 600px) {
-  .services-section {
-    padding: 50px 20px;
-  }
-
-  .services-title {
-    font-size: 26px;
-    margin-bottom: 35px;
-  }
-
   .services-container {
     grid-template-columns: 1fr;
-    gap: 25px;
   }
 
-  .service-card {
-    border-radius: 10px;
-  }
-
-  .service-card img {
-    height: 200px;
-  }
-
-  .service-content {
-    padding: 20px;
-  }
-
-  .service-content h3 {
-    font-size: 20px;
-  }
-
-  .service-content p {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  /* Animation softer on mobile */
   .slide-left .service-card {
-    transform: translateX(-60px);
+    transform: none;
+    opacity: 1;
   }
 }
-
 
 /* explore property type */
 
@@ -2889,6 +2843,7 @@ background-image: url("../images/Properties-banner.jpg");
 .seo-intro {
     display: none;
 }
+
 
 
 
