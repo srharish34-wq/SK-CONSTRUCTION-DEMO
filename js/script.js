@@ -290,12 +290,5 @@ window.addEventListener("click", (e) => {
   }
 });
 
-// First popup after page load (3 sec)
+// Show only once after page load (3 seconds)
 setTimeout(showQuoteModal, 3000);
-
-// Repeat every 30 seconds
-setInterval(() => {
-  if (quoteModal.style.display === "none") {
-    showQuoteModal();
-  }
-}, 30000);
