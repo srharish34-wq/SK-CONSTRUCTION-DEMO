@@ -25,7 +25,7 @@ img {
 /* ===== HEADER ===== */
 /* ===== HEADER ===== */
 .main-header {
-  background: #8b0000 ;
+  background: #333; ;
   padding: 43px 0;
 }
 
@@ -272,7 +272,7 @@ img {
 }
 /* ===== FOOTER ===== */
 .footer {
-  background: #8b0000;
+  background: #333;
   color: #ffffff;
   margin-top: 60px;
 }
@@ -362,7 +362,7 @@ img {
 }
 /* FOOTER BOTTOM */
 .footer-bottom {
-  background: #696969;
+  background: #8B0000;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -2843,6 +2843,7 @@ background-image: url("../images/Properties-banner.jpg");
 .seo-intro {
     display: none;
 }
+
 
 
 
